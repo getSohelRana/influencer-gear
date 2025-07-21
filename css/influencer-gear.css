@@ -113,6 +113,32 @@
     text-decoration: none;
     margin-right: 30px;
 }
+/* feature product content */
+.feature-product-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.feature-product-title{
+    font-size: 2.375rem;
+    color: #0A0826;
+    font-weight: bold;
+}
+.feature-content p{
+    font-size: 1rem;
+    color: #6C6C6C;
+    margin: 16px 0px;
+}
+.feature-product-btn{
+    width: 155px;
+    height: 45px;
+    background-color: var(--btn-bg);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+}
 
 
 
@@ -225,6 +251,27 @@
         font-size: 1.125rem;
         /* margin-right: 30px; */
     }
+    /* feature product content */
+    .feature-product-content{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .feature-product-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .feature-content p{
+        text-align: center;
+    }
+    .feature-product-btn{
+        display: block;
+        margin: 0 auto;
+    }
+    .feature-product-img img{
+        max-width: 95%;
+        display: block;
+        margin: 0 auto;
+    }
 
         
 }
@@ -311,7 +358,23 @@
         font-size: 1.125rem;
         /* margin-right: 30px; */
     }
-    
+    /* feature product content */
+    .feature-product-content{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .feature-product-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .feature-content p{
+        text-align: center;
+    }
+    .feature-product-btn{
+        display: block;
+        margin: 0 auto;
+    }
+   
 }
 
 /* Responsive for large devices */
@@ -390,6 +453,22 @@
     .show-more-card a{
         font-size: 1.125rem;
         /* margin-right: 30px; */
+    }
+    /* feature product content */
+    .feature-product-content{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .feature-product-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .feature-content p{
+        text-align: center;
+    }
+    .feature-product-btn{
+        display: block;
+        margin: 0 auto;
     }
     
 }
