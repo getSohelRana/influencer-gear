@@ -32,12 +32,11 @@
 }
 /*--------------- top header banner style --------------*/
 .influencer-banner-content{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 194px);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    
 }
 .banner-title{
     max-width: 582px;
@@ -46,7 +45,7 @@
 }
 .banner-img-box{
     width: calc(100% - 130px);
-    height: 500px;
+    height: 480px;
     background-image: url('../images/main-camera.png') , url('../images/circle-design.svg') ;
     background-repeat: no-repeat;
     background-position: right center;
@@ -63,4 +62,227 @@
     border: none;
     outline: none;
     border-radius: 41px;
+}
+/*----------------- sponsor style----------- */
+.influencer-sponsor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 20px 0px;
+}
+.influencer-sponsor img{
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive for small devices */
+@media screen and (max-width: 575px) {
+    .mobile-responsive{
+        padding: 30px 15px;
+    }
+    .top-nav{
+        padding-top: 0px;
+    }
+    .nav-bar{
+        height: auto;
+        flex-direction: column;
+    }
+    .nav-lists{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .brand-name{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    /* banner content */
+    .banner-title{
+        text-align: center;
+        font-size: 1.75rem;
+    }
+    .section-description{
+        text-align: center;
+        font-size: 0.825rem;
+    }
+    .influencer-banner-content{
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;  
+    }
+    .banner-img-box{
+        width: 100%;
+        /* width: calc(100% - 130px); */
+        height: 300;
+        background-position:  center;
+        background-size: 200px 200px;
+    }
+    .influencer-btn{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    /* banner sponsor */
+    .influencer-sponsor{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+    .influencer-sponsor img{
+        object-fit: cover;
+    }
+        
+}
+
+/* Responsive for medium devices */
+@media screen and (min-width: 575.99px)  and (max-width: 768px){
+    .mobile-responsive{
+        padding: 30px 15px;
+    }
+    .top-nav{
+        padding-top: 0px;
+    }
+    /* .nav-bar{
+        height: auto;
+        flex-direction: column;
+    } */
+    .nav-lists{
+        gap: 10px;
+    }
+
+    .brand-name{
+        font-weight: bold;
+        font-size: 0.825rem;
+    }
+    /* banner content */
+    .banner-title{
+        max-width: 768px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .section-description{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .influencer-banner-content{
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* text-align: center;   */
+    }
+    .banner-img-box{
+        width: 100%;
+        /* width: calc(100% - 130px); */
+        height: 400;
+        background-position:  center;
+        background-size: 400px 400px;
+    }
+    .influencer-btn{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    /* banner sponsor */
+    .influencer-sponsor{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 7px;
+    }
+    .influencer-sponsor img{
+        object-fit: cover;
+    }
+    
+}
+
+/* Responsive for large devices */
+@media screen and (min-width: 768.99px)  and (max-width: 1110px){
+    .mobile-responsive{
+        padding: 30px 15px;
+    }
+    .top-nav{
+        padding-top: 0px;
+    }
+    /* .nav-bar{
+        height: auto;
+        flex-direction: column;
+    } */
+    .nav-lists{
+        gap: 10px;
+    }
+
+    .brand-name{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    /* banner content */
+    .banner-title{
+        font-size: 2rem;
+    }
+    .section-description{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .influencer-banner-content{
+        display: flex;
+        /* height: auto; */
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* text-align: center;   */
+    }
+    .banner-img-box{
+        width: 100%;
+        /* width: calc(100% - 130px); */
+        height: 400;
+        background-position:  center;
+        background-size: 300px 300px;
+    }
+    .influencer-btn{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    /* banner sponsor */
+    .influencer-sponsor{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .influencer-sponsor img{
+        object-fit: cover;
+    }
+    
 }
